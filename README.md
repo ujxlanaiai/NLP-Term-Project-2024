@@ -1,5 +1,23 @@
 # NLP-Term-Project-2024
 
+This repository contains the implementation and resources for the NLP-Term-Project-2024, focusing on [brief description of the project goal, e.g., building and testing advanced language models or automating PDF content extraction].
+
+---
+
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Directory Structure
+
+```
 .
 ├── mmlu.ipynb                 # mmlu module file
 ├── testset.csv                # Dataset file
@@ -28,3 +46,5 @@
 │   ├── preprocess_txt_.ipynb
 │   └── embed_json.ipynb
 └── main.ipynb                 # Main notebook for the project
+```
+
