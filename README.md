@@ -64,9 +64,7 @@ To set up the project environment, follow these steps:
 
 ## Usage
 
-## Usage
-
-### 1. Create Document Embeddings for `ewha.pdf`
+#### 1. Create Document Embeddings for `ewha.pdf`
 Follow these steps to preprocess and embed the documents:
 
 1. Open and run the notebook: `docs/preprocess_txt_.ipynb`.  
@@ -84,7 +82,7 @@ Follow these steps to preprocess and embed the documents:
 
 ---
 
-### 2. Run the Main Notebook
+#### 2. Run the Main Notebook
 To evaluate the results and calculate the final accuracy:
 
 1. Open the notebook: `main.ipynb` in your preferred Jupyter environment.  
