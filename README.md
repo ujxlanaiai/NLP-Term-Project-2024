@@ -1,6 +1,6 @@
 # NLP-Term-Project-2024
 
-This repository contains the implementation and resources for the NLP-Term-Project-2024, focusing on [brief description of the project goal, e.g., building and testing advanced language models or automating PDF content extraction].
+This project leverages Upstage's LLM to improve question-answering performance through simple prompting and Retrieval-Augmented Generation (RAG) techniques, without the need for fine-tuning.
 
 ---
 
