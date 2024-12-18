@@ -37,18 +37,14 @@ def evaluate_accuracy(answers, responses):
 
         # check
         if generated_answer:
-            generated_answer = generated_answer.replace("(", "")
-            generated_answer = generated_answer.replace(")", "")
             print(f"generated answer: {generated_answer}, answer: {answer}")
         else:
-            print("extraction fail")
-
-        if generated_answer == None:
+            generated_answer == None
             continue
         if generated_answer in answer:
             cnt += 1
 
     print()
-    print(f"acc: {(cnt/len(answers))*100}%") # TODO: change here!!!!!!!!!!!!!!!!
+    print(f"acc: {(cnt/len(answers))*100}%")
 
-    return
+    return (cnt/len(answers))*100
